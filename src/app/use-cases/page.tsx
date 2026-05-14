@@ -1,5 +1,5 @@
 import { Sidebar } from "@/components/Sidebar";
-import Hero from "../index/components/Hero";
+import Hero from "../home/components/Hero";
 
 export default function Home() {
   return (
