@@ -1,26 +1,18 @@
-import Header from "@/components/header";
-
-import Hero from "./components/hero";
 import FirstSection from "./components/first-section";
+import SecondSection from "./components/second-section";
 import ThirdSection from "./components/third-section";
 import FourthSection from "./components/fourth-section";
-import SecondSection from "./components/second-section";
 import FifthSection from "./components/fifth-section";
-import SixthSection from "./components/sixth-section";
-import SeventhSection from "./components/seventh-section";
 import DefaultPage from "@/components/default-page";
 
-export default function HowItWorksPage() {
+export default function LandingPage() {
     return (
         <DefaultPage>
-            <Hero />
             <FirstSection />
             <SecondSection />
             <ThirdSection />
             <FourthSection />
             <FifthSection />
-            <SixthSection />
-            <SeventhSection />
         </DefaultPage>
-    );
+    )
 }
